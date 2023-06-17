@@ -1,0 +1,208 @@
+print("hello python")
+
+x = 30
+y = 20
+
+print((x+y))
+x = 50
+y = 40
+z = (x+y)
+print(z)
+
+x = 35
+y = 15
+print(x+y)
+
+x= int(input("enter frist nember::"))
+y= int(input("enter second nember::"))
+z= x+y
+#print(x)
+
+#Arithmetic operators: +  _  *  /  //  %  **
+
+def arithmeticoperator():
+     first_no=int(input("enter value for frist number:"))
+     second_no=int(input("enter vale for second number:"))
+     adition = first_no + second_no
+     substraction = first_no - second_no
+
+
+
+     print("adition = ", adition)
+     print("substraction = ",substraction)
+
+
+#arithmeticoperator()
+x= int(input("enter frist nembes::"))
+
+y= int(input("enter second nembes"))
+
+z =x+y
+print(x,"+",y,",=",z)
+z= bool(z)
+##print("z=",z)
+# Arithmetic operators: +  _  *  /  //  %  **
+
+def arithmeticoperator():
+    first_no = int(input("enter value for frist number:"))
+    second_no = int(input("enter vale for second number:"))
+    adition = first_no + second_no
+    substraction = first_no - second_no
+    multiplication =first_no % second_no
+
+    print("adition = ", adition)
+    print("substraction = ", substraction)
+
+
+#arithmeticoperator()
+#arithmeticoperator()
+#arithmeticoperator()
+
+
+# Arithmetic operators: +  _  *  /  //  %  **
+
+def arithmeticoperator():
+    first_no = int(input("enter value for frist number:"))
+    second_no = int(input("enter vale for second number:"))
+    adition = first_no + second_no
+    substraction = first_no - second_no
+    multiplication =first_no % second_no
+
+    print("adition = ", adition)
+    print("substraction = ", substraction)
+#arithmeticoperator()
+
+# arithmeticoperator()
+# arithmeticoperator()
+# arithmeticoperator()
+
+
+
+
+
+#comparison (relational) ope
+def comparisionoperator():
+    first_no = int(input("enter value for frist number:"))
+    second_no = int(input("enter vale for second number:"))
+
+    if first_no == second_no :
+        print(first_no, "and",second_no,"are equal")
+    else:
+         print(first_no, "and",second_no,"are not equal")
+
+
+# comparisionoperator()
+
+
+
+# comparison (relat
+def comparisionoperator():
+    first_no = int(input("enter value for first number: "))
+    second_no = int(input("enter vakue for second number: "))
+
+    if first_no == second_no :
+        print(first_no, "and",second_no,"are equal")
+    else:
+         print(first_no, "and",second_no,"are not equal")
+
+
+# comparisionoperator()
+
+#Assignment operators: =   +=  %
+def assignmentoperator():
+    x=50
+    y=8
+    z=x
+    z=40
+    print("x",x,"y","z",z)
+    z =40
+    print("x=",x,"y",y,"z",z)
+    x += 1     # x = x = +1
+
+#assignmentoperator()
+
+
+# first_no = int(input("enter value for frist number:"))
+def logicaloperator():
+    print ("raj"and  0)
+    first_no = int(input("enter value for frist number:"))
+    second_no = int(input("enter vale for second number:"))
+    third_no = int(input("enter value for third number:" ))
+
+    if first_no > second_no and first_no > third_no:
+        print("frist no is greatest")
+    elif second_no > first_no and second_no > third_no :
+        print ("second no is greatest")
+    else:
+        print("third_no is greatest")
+
+#logicaloperator()
+
+def getchoice():
+    choise = input("do you want to continius(y/n): ")
+    if choise == 'y' or choise =='y':
+        print("thanks for continiuing!")
+    elif choise == "n" or choise == "n" :
+        print ("thank for playing!")
+    else:
+         print("invalid input")
+
+
+#getchoice()
+
+#membership operators
+def memberoperator():
+    print('inp' in "inportia")
+    print(str(454) in "dgjhgdb")
+    print(str() in "dshhjbf")
+
+#memberoperator()
+
+
+#memberoperator()
+def memberoperator():
+    print('inp' in "inportia")
+    if 23 in {23,455,'dhjbk'}:
+        print("success")
+    else:
+         print("djbhdj")
+#memberoperator()
+
+
+#identity operators:
+def identityop():
+    if 123 is int('123'):
+        print("success")
+    else:
+        print("fail")
+#identityop()
+
+#identical_op()
+count = 1
+for x in "inportia":
+    print(" interation",count," : x ",x)
+    count +=1
+    print("hello")
+#identical_op()
+
+#identical_op
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

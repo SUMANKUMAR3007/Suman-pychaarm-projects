@@ -1,0 +1,71 @@
+#lst = [1,2,3,['a','b,'],'inportia']
+st = [1,2,3,{'a','b'},'inportia',]
+tpl = (1,2,3,['a','b'],'inportia')
+
+print(type(lst))
+print(type(set))
+print(type(tpl))
+
+#print((lst))
+#print((st))
+#print((tpl))
+
+print(lst[3])
+print(type(tpl[-1]))
+#print(str[1]) #Error
+
+print(lst[0::2])
+
+for x in st:
+    print (x)
+x = 3656
+xyz = tpl + tuple (lst)
+
+print(xyz)
+if x in st:
+   print(x)
+#lst=[1,5,238,345,3546]
+#print(max(lst))
+#print(lst.index(345))
+#print(lst.remove[::-1])
+#x = lst.pop()
+print(lst[:-1])
+print(lst)
+lst.reverse()
+print(lst)
+#print(tpl[::-1])
+
+#for x in range(1,11)
+# tbl[]
+#    tbl.append(22*1)
+#y = '  '
+#count = '  '
+#for x in tbl:
+#tbl[tbl.index(x)]
+#count +1
+
+
+
+def ass4():
+    d1 = {}
+    for x in range (1,21):
+        d1[x]=x**2
+
+    print(d1)  #whole diot
+
+    #print all keys
+    print("all keys are:")
+    for x in d1:
+        print(x, end="  ,")
+    #print all values
+    print("\nall values are:")
+    for x in d1:
+        print(d1[x], end=",  ")
+
+    x = int(input("enter key: "))
+    if x in d1.keys():
+        print(' value for key', x,'is',d1[x])
+    else:
+        print("key not found")
+ass4()
+

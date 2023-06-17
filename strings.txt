@@ -1,0 +1,110 @@
+
+#str1 = "inportia it solution llp"
+#str2 = "raj  cjhakane"
+#str3 = ''' python, java '''
+#str4 = """c,cpp"""
+
+#x = str1[5] #indexing
+#y = str1[0:6]  #slicing
+#y = str1[ :6]
+#y = str1[3:6]
+#y = str1[3: ]
+#y = str1[ ::2 ]
+
+
+#print('x= ',x)
+#print('y=',y)
+
+
+
+#if 'llp' in str1:
+ #   print("warning!")
+  #  del str1
+#else:
+#    print("not found")
+
+#print(str1)
+
+
+str1 = "inportia it solution llp"
+str2 = "raj  chakane"
+str3 = ''' python, java '''
+str4 = """c,cpp"""
+def str_declare():
+    x = str1[5] #indexing
+    y = str1[0:6]  #slicing
+    y = str1[ :6]
+    y = str1[3:6]
+    y = str1[3: ]
+    y = str1[ ::2 ]
+
+    print('x= ',x)
+    print('y=',y)
+
+#str_declare()
+def str_operator():
+    # 1. +
+    x = str1 + ' ' + str2
+    print('x=',x)
+    y = str1 + str (2013)
+    print("y= ",y)
+
+    #2.  *
+    w = str1 * int( '3')
+    print('w = ',w)
+
+    #3.  in
+    z = str1 in w
+    print( ' z=',z)
+
+    #4. no in
+    if str1 in w:
+        print("success")
+    else:
+        print ("fail!")
+
+
+    # 5. %
+    name = input("enter name: ")
+    age = int(input("enter age :"))
+
+    p = " my name is %s, and i am %d year old."%(name, age)
+    print(p)
+
+
+
+    # 5. % :
+    name = input("enter name: ")
+    age = int(input("enter age :"))
+
+    p = " my name is %s, and i am %d year old."%(name, age)
+    print(p)
+
+#str_operator()
+
+
+def builtinmethoods():
+    print(str4.capitalize())
+    print(str1. count('i',10, 15))
+    print(str1.index('it'))
+
+#builtinmethoods()
+#count =1
+#for x in str1:
+  #  if count % 2 == 0:
+ #       print(x.lower(),end="")
+#  else:
+ #       print(x.upper(),end="")
+ #   count +=1
+
+str1 = input("enter string:")
+
+sum =0
+for x in str1:
+    if x.isdigit():
+        sum = sum + int  (x)
+print("sum of digit in ", str1 ," = ",sum)
+input()
+
+
+

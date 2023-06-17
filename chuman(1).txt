@@ -1,0 +1,47 @@
+import random
+
+computer_count = 0
+user_count = 0
+moves = ["rock", "paper", "scissors"]
+keep_playing = "true"
+while keep_playing == "true":
+    cmove = random.choice(moves)
+    pmove = input("What is your move: rock, paper or scissors?")
+    print ("The computer chose",cmove)
+    if cmove == pmove:
+        print ("Tie")
+        computer_count +=1
+        user_count +=1
+    elif pmove == "rock" and cmove == "scissors":
+        print ("Player wins")
+        user_count +=1
+    elif pmove == "rock" and cmove == "paper":
+        print ("Computer wins")
+        computer_count +=1
+    elif pmove == "paper" and cmove == "rock":
+        print ("Player wins")
+        user_count +=1
+    elif pmove == "paper" and cmove == "scissors":
+        print ("Computer wins")
+        computer_count +=1
+    elif pmove == "scissors" and cmove == "paper":
+        print ("Player wins")
+        user_count +=1
+    elif pmove == "scissors" and cmove == "rock":
+        print ("Computer wins")
+        computer_count +=1
+
+    print("")
+    print("player wins:" + str(user_count))
+    print("computer wins:" + str(computer_count))
+    print("")
+
+    pmove = input("play again? (yes/no)")
+    if pmove in ["y","yes"]:
+       pass
+    elif pmove in ["n","no"]:
+        break
+    else:
+        break
+    
+
